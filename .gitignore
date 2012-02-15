@@ -50,3 +50,23 @@ obj/
 *.sdf
 *.opensdf
 *.pdb
+
+# Microsoft Office files #
+~/
+~*.*
+
+# LaTeX files #
+*.aux
+*.log
+*.gz
+*.dvi
+*.bbl
+*.blg
+*.ps
+
+# Java files #
+build/
+*.class
+*.jar
+*.war
+*.ear
