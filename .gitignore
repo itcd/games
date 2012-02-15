@@ -38,6 +38,15 @@ Thumbs.db
 .hg
 
 # Visual Studio files #
-*.user
-*.sdf
+Debug/
+Release/
+ipch/
+bin/
+obj/
+*.ncb
 *.suo
+*.user
+*.ipch
+*.sdf
+*.opensdf
+*.pdb
