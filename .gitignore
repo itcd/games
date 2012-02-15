@@ -36,3 +36,8 @@ Thumbs.db
 # Mercurial files #
 .hgignore
 .hg
+
+# Visual Studio files #
+*.user
+*.sdf
+*.suo
