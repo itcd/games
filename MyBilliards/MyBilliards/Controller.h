@@ -133,7 +133,7 @@ public:
 		//	e = pygame.event.poll()
 		//	if e.Type == QUIT or (e.Type == KEYDOWN and e.key == K_ESCAPE):
 		//return 0
-		if (e.Type == sf::Event::KeyPressed && e.Key.Code == sf::Key::S)
+		if (e.type == sf::Event::KeyPressed && e.key.code == sf::Keyboard::S)
 		{
 			float m[16];
 			glGetFloatv(GL_MODELVIEW_MATRIX, m);
@@ -160,15 +160,15 @@ public:
 			cueball.time = 0;
 		}
 
-		if (e.Type == sf::Event::MouseButtonPressed)
+		if (e.type == sf::Event::MouseButtonPressed)
 		{
-			if (e.MouseButton.Button == sf::Mouse::Left)
+			if (e.mouseButton.button == sf::Mouse::Left)
 			{
 				drag_mode = 1;
 				//#scene.bounce_sound.play()
 				//#print "bang!"			
 			}
-			if (e.MouseButton.Button == sf::Mouse::Right)
+			if (e.mouseButton.button == sf::Mouse::Right)
 				drag_mode = 2;
 			//if (e.MouseButton.Button == sf::Mouse::Middle)
 			//{
@@ -186,7 +186,7 @@ public:
 		} 
 		else
 		{
-			if (e.Type == sf::Event::MouseButtonReleased)
+			if (e.type == sf::Event::MouseButtonReleased)
 			{
 				drag_mode = 0;
 				oldx = - 1;
@@ -194,9 +194,9 @@ public:
 				oldz = - 1;
 			}else
 			{
-				if (e.Type == sf::Event::MouseWheelMoved)
+				if (e.type == sf::Event::MouseWheelMoved)
 				{
-					std::cout<<e.MouseWheel.Delta<<std::endl;
+					std::cout<<e.mouseWheel.delta<<std::endl;
 
 					//rotate_radius *= scale_factor;
 					//glScalef(scale_factor, scale_factor, scale_factor);
@@ -211,9 +211,9 @@ public:
 		//if (e.Type == sf::Event::Resized)
 		//	win = display.set_mode(e.size, RESIZABLE);
 
-		if (e.Type == sf::Event::MouseMoved)
+		if (e.type == sf::Event::MouseMoved)
 		{
-			drag(e.MouseMove.X, e.MouseMove.Y);
+			drag(e.mouseMove.x, e.mouseMove.y);
 		}
 
 		//return 1;

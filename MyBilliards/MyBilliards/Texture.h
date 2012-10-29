@@ -78,12 +78,12 @@ public:
 		for (int i=0; i<TEXTURE_NUM; i++)
 		{
 			sf::Image image;
-			if (image.LoadFromFile(texture_file[i]))
+			if (image.loadFromFile(texture_file[i]))
 			{
 				glBindTexture(GL_TEXTURE_2D, texture[i]);
 				glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 				glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-				gluBuild2DMipmaps(GL_TEXTURE_2D, GL_RGBA, image.GetWidth(), image.GetHeight(), GL_RGBA, GL_UNSIGNED_BYTE, image.GetPixelsPtr());
+				gluBuild2DMipmaps(GL_TEXTURE_2D, GL_RGBA, image.getSize().x, image.getSize().y, GL_RGBA, GL_UNSIGNED_BYTE, image.getPixelsPtr());
 			}
 		}
 	}

@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 11
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyBilliards", "MyBilliards\MyBilliards.vcxproj", "{36C9A5EC-3BC4-43C3-A6F7-3BEEB0872D2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tic_tac_toe", "tic_tac_toe\tic_tac_toe.vcxproj", "{B49EC420-15FD-4E78-98AE-B28FC5B5558B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{36C9A5EC-3BC4-43C3-A6F7-3BEEB0872D2A}.Debug|Win32.Build.0 = Debug|Win32
 		{36C9A5EC-3BC4-43C3-A6F7-3BEEB0872D2A}.Release|Win32.ActiveCfg = Release|Win32
 		{36C9A5EC-3BC4-43C3-A6F7-3BEEB0872D2A}.Release|Win32.Build.0 = Release|Win32
+		{B49EC420-15FD-4E78-98AE-B28FC5B5558B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B49EC420-15FD-4E78-98AE-B28FC5B5558B}.Debug|Win32.Build.0 = Debug|Win32
+		{B49EC420-15FD-4E78-98AE-B28FC5B5558B}.Release|Win32.ActiveCfg = Release|Win32
+		{B49EC420-15FD-4E78-98AE-B28FC5B5558B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

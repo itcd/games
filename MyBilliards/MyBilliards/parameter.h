@@ -99,16 +99,10 @@ const int BALL_NUM = 16; // eight balls
 #include <iostream>
 #include <cmath>
 #include <SFML/Graphics/Color.hpp>
-//#include <glm/glm.hpp>
-//#include <glm/gtx/quaternion.hpp>
-//#include <glm/glm.hpp>
-//#include <glm/gtc/matrix_transform.hpp>
-//#include <glm/gtc/quaternion.hpp>
-//#include <glm/glm.hpp>
 
 // OpenGL Mathematics (GLM) http://www.g-truc.net/project-0016.html
-#include "../glm/glm/ext.hpp"
+#include <glm/ext.hpp>
 //// OpenGL Image (GLI) http://www.g-truc.net/project-0024.html
-//#include "../gli/gli/gtx/gl_texture2d.hpp"
+//#include <gli/gtx/gl_texture2d.hpp>
 
 #include "vector_utils.h"

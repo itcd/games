@@ -152,14 +152,14 @@ public:
 		}
 		control.process_input(e, balls[0]);
 
-		if (e.Type == sf::Event::KeyPressed && e.Key.Code == sf::Key::Return)
+		if (e.type == sf::Event::KeyPressed && e.key.code == sf::Keyboard::Return)
 		{
 			balls[0].velocity = glm::vec3(0,20,0);
 			balls[0].angular_velocity = glm::vec3(0);
 			std::cout<<"<hit the ball>"<<std::endl;
 			balls[0].time = 0;
 		}
-		if (e.Type == sf::Event::KeyPressed && e.Key.Code == sf::Key::Space)
+		if (e.type == sf::Event::KeyPressed && e.key.code == sf::Keyboard::Space)
 		{
 			balls[0].position = glm::vec3(0, -TABLE_LENGTH / 4, 0);
 			balls[0].velocity = glm::vec3(0);

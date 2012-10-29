@@ -17,7 +17,6 @@ public:
 	// Each ball must has a unique number. It's used to identify a ball.
 	int number;
 
-
 	Ball(void)
 	{
 		position.x = position.y = position.z = velocity.x = velocity.y = velocity.z = 0;
