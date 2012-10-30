@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tic_tac_toe", "tic_tac_toe\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "npc", "npc\npc.vcxproj", "{E6515C80-7760-4744-937C-ADA8517BC09E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snake", "snake\snake.vcxproj", "{866282D1-3023-42CC-A3C9-7A8A2D07A64F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{E6515C80-7760-4744-937C-ADA8517BC09E}.Debug|Win32.Build.0 = Debug|Win32
 		{E6515C80-7760-4744-937C-ADA8517BC09E}.Release|Win32.ActiveCfg = Release|Win32
 		{E6515C80-7760-4744-937C-ADA8517BC09E}.Release|Win32.Build.0 = Release|Win32
+		{866282D1-3023-42CC-A3C9-7A8A2D07A64F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{866282D1-3023-42CC-A3C9-7A8A2D07A64F}.Debug|Win32.Build.0 = Debug|Win32
+		{866282D1-3023-42CC-A3C9-7A8A2D07A64F}.Release|Win32.ActiveCfg = Release|Win32
+		{866282D1-3023-42CC-A3C9-7A8A2D07A64F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
