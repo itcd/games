@@ -44,11 +44,11 @@ int main()
 		direction = sf::Vector2i(0, 1);
 		break;
 	case 2:
-		break;
 		direction = sf::Vector2i(-1, 0);
-	case 3:
 		break;
+	case 3:
 		direction = sf::Vector2i(1, 0);
+		break;
 	}
 
 	sf::Clock clock;
